@@ -8,7 +8,7 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://coclican.ird.fr/wp-content/uploads/2018/11/if_malecostume_403022.png"
+              src="https://res.cloudinary.com/dmswxxfu4/image/upload/v1598949476/images/karthick_igr2vq.png"
               alt="avatar"
               className="avatar-img"
             />
