@@ -29,7 +29,7 @@ const ReactProjects = () => {
             pending activities.
           </strong>
         </CardText>
-        <CardActions border>
+        <CardActions border className="button-align">
           <a
             href="https://github.com/karthick1108/To_do_list_React"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const ReactProjects = () => {
             the user. Edamam API is used to fetch the food details.
           </strong>
         </CardText>
-        <CardActions border>
+        <CardActions border className="button-align">
           <a
             href="https://github.com/karthick1108/react-recipe-meal-app"
             rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const ReactProjects = () => {
             the given list and calculate strength,Intelligence and speed.
           </strong>
         </CardText>
-        <CardActions border>
+        <CardActions border className="button-align">
           <a
             href="https://github.com/karthick1108/Super-Squad"
             rel="noopener noreferrer"

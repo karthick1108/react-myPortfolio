@@ -29,7 +29,7 @@ const AndroidProjects = () => {
             disposal through games and fun activities.
           </strong>
         </CardText>
-        <CardActions border>
+        <CardActions border className="button-align">
           <a
             href="https://github.com/karthick1108/Binlet"
             rel="noopener noreferrer"
