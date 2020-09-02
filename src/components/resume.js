@@ -56,6 +56,7 @@ class Resume extends Component {
               schoolName={
                 "Masters in Information Technology - Monash University"
               }
+              location={"Melbourne, Australia"}
               score={"70%"}
             />
             <Education
@@ -64,6 +65,7 @@ class Resume extends Component {
               schoolName={
                 "Bachelors in Computer Science and Engineering - Anna University"
               }
+              location={"Chennai, India"}
               score={"72.2%"}
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />

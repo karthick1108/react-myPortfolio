@@ -10,9 +10,11 @@ const Education = (props) => {
         </p>
       </Cell>
       <Cell col={8}>
-        <h5 style={{ marginTop: "0px" }}>{props.schoolName}</h5>
+        <h5 style={{ marginTop: "0px" }}>
+          {props.schoolName}: {props.score}
+        </h5>
         <p>
-          <strong>Weighted Average Mark:</strong> {props.score}
+          <strong>{props.location}</strong>
         </p>
       </Cell>
     </Grid>
