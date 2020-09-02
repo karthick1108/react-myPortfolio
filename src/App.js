@@ -1,5 +1,13 @@
 import React from "react";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  Layout,
+  Header,
+  Navigation,
+  Drawer,
+  Content,
+  Footer,
+  FooterSection,
+} from "react-mdl";
 import "./App.css";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
@@ -42,6 +50,12 @@ function App() {
           <div className="page-content" />
           <Main />
         </Content>
+        <Footer size="mini" className="header-color">
+          <FooterSection type="middle" logo="" />
+          <p style={{ color: "white", fontSize: "20px" }}>
+            2020 © All Rights Reserved
+          </p>
+        </Footer>
       </Layout>
     </div>
   );
