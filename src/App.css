@@ -128,3 +128,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+  border-radius: 40px;
+}

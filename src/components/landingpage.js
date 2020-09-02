@@ -54,6 +54,15 @@ class LandingPage extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
+
+                {/*Instagram */}
+                <a
+                  href="https://www.instagram.com/imkarthickr/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-instagram" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>
