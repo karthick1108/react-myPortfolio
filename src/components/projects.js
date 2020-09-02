@@ -6,6 +6,7 @@ import AndroidProjects from "./projectsList/androidprojects";
 import BigDataProjects from "./projectsList/bigdataprojects";
 import ReactNativeProjects from "./projectsList/reactnativeprojects";
 import JavaProjects from "./projectsList/javaprojects";
+import RProjects from "./projectsList/rprojects";
 
 class Projects extends Component {
   constructor(props) {
@@ -24,6 +25,8 @@ class Projects extends Component {
       return ReactNativeProjects();
     } else if (this.state.activeTab === 4) {
       return JavaProjects();
+    } else if (this.state.activeTab === 5) {
+      return RProjects();
     }
   }
 
@@ -40,6 +43,7 @@ class Projects extends Component {
           <Tab>Big Data</Tab>
           <Tab>React Native</Tab>
           <Tab>J2EE</Tab>
+          <Tab>R</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
