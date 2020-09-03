@@ -16,7 +16,7 @@ const ReactProjects = () => {
         <CardTitle
           style={{
             color: "#fff",
-            height: "176px",
+            height: "192px",
             background:
               "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
           }}

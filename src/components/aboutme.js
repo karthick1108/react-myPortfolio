@@ -12,8 +12,10 @@ class About extends Component {
         <p class="aboutme">
           Hello Everyone, <br /> <br />
           Welcome to my portfolio. My name is Karthick and I recently graduated
-          from Monash University with a Master's Degree in IT. My desire to
-          undertake Computing systems as a career began with pursuing a
+          from Monash University with a Master's Degree in IT. I am an
+          accomplished programmer, and I enjoy using my skills to contribute to
+          the exciting technological advances that happen every day. My desire
+          to undertake Computing systems as a career began with pursuing a
           Bachelor's degree in Computer Science and Engineering. It was during
           this period that I was able to appreciate the core concepts of
           Computer Science like Compilers, Operating Systems, Database Systems,
@@ -27,7 +29,10 @@ class About extends Component {
           put on different hats according to the situation. Some roles I am open
           to include Software Developer, Full Stack Web Developer, Android
           Developer and Big Data Developer. It would be an absolute pleasure to
-          connect with you.
+          connect with you{" "}
+          <span role="img" aria-label="love">
+            ❤️
+          </span>
         </p>
       </div>
     );

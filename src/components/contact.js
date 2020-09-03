@@ -13,8 +13,22 @@ class Contact extends Component {
               alt="avatar"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Hi There! My name is Karthick
+            <p
+              style={{
+                width: "75%",
+                margin: "auto",
+                paddingTop: "1em",
+                textAlign: "justify",
+              }}
+            >
+              Building state-of-the-art, easy to use, user-friendly applications
+              is truly a passion of mine. I am currently looking for a Full Time
+              Opportunities, so feel free to check out my projects and
+              experience on Github and LinkedIn. Looking forward to speaking
+              with you{" "}
+              <span role="img" aria-label="smiley">
+                🙂
+              </span>
             </p>
           </Cell>
           <Cell col={6}>
@@ -35,7 +49,11 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-envelope" aria-hidden="true" />
+                    <i
+                      style={{ fontSize: "30px" }}
+                      className="fa fa-envelope"
+                      aria-hidden="true"
+                    />
                     karthickraj1108@gmail.com
                   </ListItemContent>
                 </ListItem>
@@ -51,6 +69,21 @@ class Contact extends Component {
                       target="_blank"
                     >
                       LinkedIn
+                    </a>
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-github-square" aria-hidden="true" />
+                    <a
+                      href="https://github.com/karthick1108"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Github
                     </a>
                   </ListItemContent>
                 </ListItem>
