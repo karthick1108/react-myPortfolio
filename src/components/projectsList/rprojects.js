@@ -11,7 +11,7 @@ import {
 const RProjects = () => {
   return (
     <div className="projects-grid">
-      {/* Project 1 */},
+      {/* Project 1 */}
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{

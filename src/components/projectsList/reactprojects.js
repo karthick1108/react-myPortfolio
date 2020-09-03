@@ -11,8 +11,14 @@ import {
 const ReactProjects = () => {
   return (
     <div className="projects-grid">
-      {/* Project 1 */},
-      <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      {/* Project 1 */}
+      <Card
+        shadow={5}
+        style={{
+          minWidth: "450",
+          margin: "auto",
+        }}
+      >
         <CardTitle
           style={{
             color: "#fff",
@@ -47,7 +53,7 @@ const ReactProjects = () => {
         </CardActions>
         <CardMenu style={{ color: "#fff" }}></CardMenu>
       </Card>
-      {/* Project 2 */},
+      {/* Project 2 */}
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
@@ -83,7 +89,7 @@ const ReactProjects = () => {
         </CardActions>
         <CardMenu style={{ color: "#fff" }}></CardMenu>
       </Card>
-      {/* Project 3 */},
+      {/* Project 3 */}
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
@@ -119,7 +125,7 @@ const ReactProjects = () => {
         </CardActions>
         <CardMenu style={{ color: "#fff" }}></CardMenu>
       </Card>
-      {/* Project 4 */},
+      {/* Project 4 
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
@@ -149,7 +155,7 @@ const ReactProjects = () => {
           </center>
         </CardActions>
         <CardMenu style={{ color: "#fff" }}></CardMenu>
-      </Card>
+      </Card>*/}
     </div>
   );
 };

@@ -11,7 +11,7 @@ import {
 const BigDataProjects = () => {
   return (
     <div className="projects-grid">
-      {/* Project 1 */},
+      {/* Project 1 */}
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
@@ -42,7 +42,7 @@ const BigDataProjects = () => {
         </CardActions>
         <CardMenu style={{ color: "#fff" }}></CardMenu>
       </Card>
-      {/* Project 2 */},
+      {/* Project 2 */}
       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
         <CardTitle
           style={{
