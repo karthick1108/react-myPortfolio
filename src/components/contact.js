@@ -64,7 +64,7 @@ class Contact extends Component {
                   >
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                     <a
-                      href="https://www.linkedin.com/in/karthick-rajasekaran/>"
+                      href="https://www.linkedin.com/in/karthick-rajasekaran/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
