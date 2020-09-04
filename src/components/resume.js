@@ -21,8 +21,13 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>
               Full Stack Developer | Android Developer | Data Engineer
             </h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p>
+            <hr
+              style={{
+                borderTop: "3px solid #833fb2",
+                width: "50%",
+              }}
+            />
+            <p style={{ textAlign: "justify" }}>
               An enthusiastic developer with 3 years of experience in IT and
               astute knowledge on Full stack and Android development seeking
               opportunities for progressive learning. My academic and work
