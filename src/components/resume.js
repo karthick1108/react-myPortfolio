@@ -24,10 +24,16 @@ class Resume extends Component {
             <hr
               style={{
                 borderTop: "3px solid #833fb2",
-                width: "50%",
+                width: "100%",
               }}
             />
-            <p style={{ textAlign: "justify" }}>
+            <p
+              style={{
+                fontFamily: "Oxygen",
+                fontSize: "18px",
+                textAlign: "justify",
+              }}
+            >
               An enthusiastic developer with 3 years of experience in IT and
               astute knowledge on Full stack and Android development seeking
               opportunities for progressive learning. My academic and work
@@ -38,20 +44,44 @@ class Resume extends Component {
               attention to detail and eager to learn about new technologies and
               business issues.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <strong>
               <h5>ADDRESS</h5>
             </strong>
-            <p>203/238,Flinders Street,Melbourne,VIC-3000</p>
+            <p
+              style={{
+                fontFamily: "Oxygen",
+                fontSize: "18px",
+                textAlign: "justify",
+              }}
+            >
+              203/238, Flinders Street, Melbourne, VIC-3000
+            </p>
             <strong>
               <h5>PHONE</h5>
             </strong>
-            <p>+61-406819822</p>
+            <p
+              style={{
+                fontFamily: "Oxygen",
+                fontSize: "18px",
+                textAlign: "justify",
+              }}
+            >
+              +61-406819822
+            </p>
             <strong>
               <h5>EMAIL</h5>
             </strong>
-            <p>karthickraj1108@gmail.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p
+              style={{
+                fontFamily: "Oxygen",
+                fontSize: "18px",
+                textAlign: "justify",
+              }}
+            >
+              karthickraj1108@gmail.com
+            </p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>EDUCATION</h2>

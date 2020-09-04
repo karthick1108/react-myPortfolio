@@ -18,6 +18,8 @@ class Contact extends Component {
                 width: "75%",
                 margin: "auto",
                 paddingTop: "1em",
+                fontFamily: "Oxygen",
+                fontSize: "18px",
                 textAlign: "justify",
               }}
             >
